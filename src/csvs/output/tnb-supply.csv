@@ -1,6 +1,6 @@
-Section,Amount,Percentage,Total
-tasks,1159150,3.5,
-teams,15398151,46.51,
-onBothTeams,968820,2.93,
-projectTeams,3947916,11.92,
-nonTeamMembers,11633482,35.14,
+Section,Amount,Percentage
+tasks,1159150,4.01,
+teams,15385314,53.17,
+onBothTeams,968820,3.35,
+projectTeams,3947916,13.64,
+nonTeamMembers,7473678,25.83,

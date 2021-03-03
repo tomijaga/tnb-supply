@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc && node dist/server.js",
-    "format": "tsc && node dist/formatScript.js",
+    "start": "node src/mainScript.js",
+    "format": "node src/formatScript.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

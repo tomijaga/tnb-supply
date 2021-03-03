@@ -22,6 +22,17 @@ const __dirname = dirname(__filename);
 
 const paymentAccounts = [
   "23676c35fce177aef2412e3ab12d22bf521ed423c6f55b8922c336500a1a27c5",
+  "6ad6deef2a65642a130fb081dacc2010c7521678986ed44b53a845bc00dd3924",
+  "9bfa37627e2dba0ae48165b219e76ceaba036b3db8e84108af73a1cce01fad35",
+  "f0fe0fdff41db888a0938882502ee809f6874c015aa09e11e38c8452d4175535",
+  "addf211d203c077bzc5c6b78f41ddc68481804539de4bd3fd736fa853514551c0",
+  "c536b7717f4c3e3b864e384c2156a44f952223326bc0eab4f2f8be1a34bc2e6d",
+  "9cb647da9ea1445c361e6d734a6ee0fce4896230392947713686697dd586495b",
+  "0d304450eae6b5094240cc58b008066316d9f641878d9af9dd70885f065913a0",
+  "ca85c141c945866dd32af37ad669855458eb3f9e5d1a4530d852c3c745de11a7",
+  "a7381dce0249efc26130dd226ecc0df3154009a0210adc4cac869e4a2cb92d65",
+  "0c9e43fd6630e213a088bf816425c294248ae496129dadb03137c151a2a22ff6",
+  "67077b2397f99fb6c63185af25cdf49d43736b22b7ea5dd68089a04cd4dbf8cf",
 ];
 
 let allAccounts = [];
@@ -73,8 +84,6 @@ async function runScript() {
       { id: "section", title: "Section" },
       { id: "amount", title: "Amount" },
       { id: "percentage", title: "Percentage" },
-
-      { id: "total", title: "Total" },
     ],
     tnbSupply
   );
